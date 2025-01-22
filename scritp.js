@@ -50,8 +50,8 @@ a.addEventListener("click", (dets) => {
     making_bubble();
     hit();
   }
-//   else{
-//     score -=5;
-//     document.querySelector("#scoreval").textContent = score;
-// }
+  else{
+    score -=5;
+    document.querySelector("#scoreval").textContent = score;
+}
 });
