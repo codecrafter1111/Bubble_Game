@@ -53,5 +53,6 @@ a.addEventListener("click", (dets) => {
   else{
     score -=5;
     document.querySelector("#scoreval").textContent = score;
+    making_bubble();
 }
 });
